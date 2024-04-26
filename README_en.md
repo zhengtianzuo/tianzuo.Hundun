@@ -1,3 +1,4 @@
+<h4 align="right"><strong><a href="README.md">简体中文</a></strong> | English</h4>
 
 ![](img/logo.png)
 
