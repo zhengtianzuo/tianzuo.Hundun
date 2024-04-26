@@ -1,0 +1,10 @@
+demo/cpp/*.cpp linguist-language=C++
+demo/csharp/*.cs linguist-language=C#
+demo/go/*.go linguist-language=GO
+demo/java/src/main/java/cn/camelsoft/*.java linguist-language=Java
+demo/js/*.js linguist-language=JavaScript
+demo/php/*.php linguist-language=PHP
+demo/python/*.py linguist-language=Python
+demo/ruby/*.rb linguist-language=Ruby
+demo/rust/src/*.rs linguist-language=Rust
+demo/vb/*.vb linguist-language=Visual Basic .NET
