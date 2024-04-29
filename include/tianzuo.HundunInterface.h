@@ -46,7 +46,7 @@ static const char* Hundun_error_code_strings[6] = {
     "success",
     "parameter error",
     "parse error",
-    "license filename",
+    "license filename error",
     "out of date",
     "machine id unmatched"
 };
@@ -88,15 +88,15 @@ class tianzuo_Hundun_lib tianzuo_HundunInt {
      const char* get_machineid();
 };
 
-//!@brief 乾坤袋接口 for python java csharp javascript php visualbasic go rust ruby
-//!@class tianzuo_QiankunInterface for python java csharp javascript php visualbasic go rust ruby
+//!@brief 混沌钟接口 for python java csharp javascript php visualbasic go rust ruby
+//!@class tianzuo_HundunInterface for python java csharp javascript php visualbasic go rust ruby
 #ifdef __cplusplus
 extern "C"
 {
 #endif
 
     /*!
-    *@name check
+    *@name tianzuo_Hundun_check
     *@brief 验证许可证信息
     *@param[in] public_key_string 公钥字符串
     *@param[in] license_file 许可证文件路径
@@ -108,13 +108,13 @@ extern "C"
     tianzuo_Hundun_lib int tianzuo_Hundun_check(const char* public_key_string, const char* license_file, int* days);
 
     /*!
-    *@name get_machineid
+    *@name tianzuo_Hundun_get_machineid
     *@brief 获取注册码
     *@return char* 返回注册码字符串
     *@author 郑天佐
     *@date 2024-1-1
     */
-    tianzuo_Hundun_lib const char* get_machineid();
+    tianzuo_Hundun_lib const char* tianzuo_Hundun_get_machineid();
 
 #ifdef __cplusplus
 }
