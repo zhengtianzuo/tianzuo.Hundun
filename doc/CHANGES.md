@@ -3,8 +3,9 @@ tianzuo.Hundun CHANGES
 
 This is a high-level summary of the most important changes.
 
-tianzuo.Hundun Releases
-----------------
+2.0.0.0
+-----------
+Code Refactoring
 
-tianzuo.Hundun 1.0.0.0
+1.0.0.0
 -----------

@@ -4,8 +4,8 @@
 
 ### 天佐.混沌钟
 
-![](https://img.shields.io/badge/release-1.0.0.0-blue.svg)
-![](https://img.shields.io/badge/date-24.1.1-orange.svg)
+![](https://img.shields.io/badge/release-2.0.0.0-blue.svg)
+![](https://img.shields.io/badge/date-25.5.6-orange.svg)
 
 ||||
 |--|--|--|
